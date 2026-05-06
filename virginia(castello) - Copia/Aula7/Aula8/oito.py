@@ -88,3 +88,58 @@
 # else:
 #      print("Não é necessário levar o guarda-chuva, está sol!")
 
+6.
+#errado
+# pontos = 50
+# print("Parabéns! Você fez "+ pontos + "pontos")
+
+#corrigido
+# pontos = 50 
+# print("Parabéns! Você fez:" ,  pontos , "pontos")
+
+#melhorado
+
+
+# 7.
+#errado
+# O sistema deve dar "Exelente" para notas 9 ou 10.
+
+# nota=9.5
+# if nota >=7:
+#     print("Aprovado")
+# elif nota>= 9:
+#     print("Excelente!")
+
+#corrigido
+# nota = float(input("Qual foi sua nota?"))
+
+# if nota >=9:
+#     print("Excelente!")
+# else:
+#     print("Aprovado")
+
+
+
+#melhorado
+# nota = float(input("Qual foi sua nota?"))
+
+# if nota >=9:
+#     print("Excelente!")
+# elif nota >=7:
+#     print("Aprovado")
+# else:
+#     print("Reprovado!")
+
+# 8.
+#errado
+# Objetivo: Mostrar na tela os números 1, 2, 3, 4 e 5.
+# for i in range(5):
+# print(i)
+
+#corrigido
+# for numeros in range(1, 6):
+#     print(f"{numeros}")
+
+#melhorado:
+# for v in range(6):
+#     print(f"{v}")
